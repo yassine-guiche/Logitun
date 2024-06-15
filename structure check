@@ -1,0 +1,15 @@
+Client Front-end (Angular)
+  - Pages : Accueil, Recherche, Détails de l'Équipement, Réservation, Tableau de Bord, Profil Utilisateur
+  - Composants : Barre de Navigation, Filtre de Recherche, Carte de Géolocalisation, Formulaire de Réservation
+
+Serveur Back-end (Node.js)
+  - Routes API : /auth, /users, /equipments, /reservations, /payments, /reviews, /support
+  - Contrôleurs : AuthController, UserController, EquipmentController, ReservationController, PaymentController, ReviewController, SupportController
+  - Services : AuthService, UserService, EquipmentService, ReservationService, PaymentService, ReviewService, SupportService
+
+Base de Données (MongoDB)
+  - Collections : Users, Equipments, Reservations, Payments, Reviews, SupportTickets
+
+Application Mobile (Flutter)
+  - Pages : Accueil, Recherche, Détails de l'Équipement, Réservation, Tableau de Bord, Profil Utilisateur
+  - Composants : Barre de Navigation, Filtre de Recherche, Carte de Géolocalisation, Formulaire de Réservation
